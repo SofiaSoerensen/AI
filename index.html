@@ -7,37 +7,42 @@
     <title>AI project</title>
   </head>
   <body>
-    <h1>AI Meal Ideas</h1>
+    <div class="container">
+      <header>
+        <h1>AI Meal Ideas</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the ingredient you want the meal to center"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The meal idea will go here:
-        <br />
-        eg. chicken ceasar salad
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the ingredient you want the meal to center"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="meal">
+          The meal idea will go here:
+          <br />
+          eg. chicken ceasar salad
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/SofiaSoerensen" target="_blank"
-        >Sofia Soerensen</a
-      >
-      and is
-      <a href="https://github.com/SofiaSoerensen/AI" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and <a href="https://aimealideas.netlify.app/">hosted on Netlify</a>
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/SofiaSoerensen" target="_blank"
+          >Sofia Soerensen</a
+        >
+        and is
+        <a href="https://github.com/SofiaSoerensen/AI" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and <a href="https://aimealideas.netlify.app/">hosted on Netlify</a>
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
